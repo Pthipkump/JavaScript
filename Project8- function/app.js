@@ -12,7 +12,10 @@ function tofahrenheit(celsius)
     let value = (celsius * 9/ 5) +32
     return value.toFixed(2) + "°F";
 }
-alert(toCelsius(56))
-display("toCelsius", toCelsius(56))
-alert(tofahrenheit(56))
-display("toFahrenheit", tofahrenheit(56))
+
+var dataTemp = prompt("กรอกอุณหภูมิ")
+
+alert(toCelsius(dataTemp))
+display("toCelsius", toCelsius(dataTemp))
+alert(tofahrenheit(dataTemp))
+display("toFahrenheit", tofahrenheit(dataTemp))
