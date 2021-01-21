@@ -5,3 +5,11 @@ function toCelsius()
     document.getElementById("answer_section").innerHTML = value.toFixed(2) + "℃";
 }
 toCelsius()
+
+function tofahrenheit()
+{
+    let celsius = prompt("Celsius:")
+    let value = (celsius * 9/ 5) +32
+    document.getElementById("answer_section").innerHTML = value.toFixed(2) + "°F";
+}
+tofahrenheit()
